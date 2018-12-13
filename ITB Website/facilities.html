@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Facilities</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+	
+	<script>
+		// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<body background="images/background.png">
+	
+		<button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+	
+<div id="wrapper">
+
+<!-- Insert logo here, in image-form -->
+<div id="logo">
+      <a href="index.html"><img src="images/logo.jpg" alt="logo" id="logoimg"></a>
+</div><!-- Closes logo-->
+
+<div id="title">
+	<h1>Facilities</h1>
+</div><!-- Closes title -->
+
+<!-- This is the nav bar, make it dropdown -->
+<div id="navwrap"> <!-- This will wrap arond the nav and div to create a border-->
+<div id="mainnav">
+   <nav id="important">
+      <ul>
+		  <li><a href="index.html" class="links">Home</a></li>
+           <li><a href="about.html" class="links">About</a></li>
+           <li><a href="ecology.html" class="links">Ecology</a></li>
+           <li><a href="ihistory.html" class="links">ITB History</a></li>
+           <li><a href="facilities.html" class="links">Facilities</a></li>
+		  <li><a href="sitemap.html" class="links">Sitemap</a></li>	
+      </ul>
+   </nav>
+</div><!-- Closes mainnav-->
+</div><!-- Closes navwrap-->
+
+	<h4 id="welcome4">Facilities</h4>
+	<p>Ideally located 10km from Dublin City and 14km from Dublin Airport, the LINC is one of Ireland’s best located business incubation centres.  Our close proximity to both the M50 and N3 coupled with our situation within a busy industrial commercial setting make the LINC an ideal location for hosting events, workshops, training and seminars.<br><br>
+
+The centre has been newly refurbished, providing state of the art facilities, a fantastic environment for a productive business event. The centre is located within a convenient self-contained campus containing an onsite restaurant, gym, sports halls, seminar rooms and hundreds of onsite car parking spaces. Wi-Fi available for attendees.</p>
+
+	<hr>
+	
+	<div class="row">
+  <div class="column">
+    <img src="images/computer.JPG" alt="computer room" class="facimg">
+  </div>
+  <div class="column">
+    <h2>Computer Labs</h2><br><br>
+    <p>ITB contains a handful of labs available for students. Such labs include "Mac Labs" which is most used by Creative Digital Media students and is sometimes also accessed by Marketing students.<br></p>
+  </div>
+</div>
+	
+		<div class="row">
+  <div class="column">
+    <img src="images/gym.jpg" alt="computer room" class="facimg">
+  </div>
+  <div class="column">
+	  <h2>ITB Gym</h2><br><br>
+    <p>You can join our Gym by filling out a health screening form at the Sports Office.
+Membership is free for all students.<br><br>Fitness and personal training programmes are available on request.
+
+As part of the overall ITB Sports Service ITB provide a number of free and subsidised fitness classes. These change on a semester basis.</p>
+  </div>
+</div>
+
+		<div class="row">
+  <div class="column">
+    <img src="images/greenh.JPG" alt="computer room" class="facimg">
+  </div>
+  <div class="column">
+	  <h2>Polytunnel</h2><br><br>
+    <p>This facility is used by Horticulture students. it's used for growing plants that aren't suited for outdoors in the Irish climate and for starting seedlings. </p>
+  </div>
+</div>
+
+
+	
+</div><!-- Closes wrapper-->
+
+<footer>
+	<small>Copyright &copy;</small>
+</footer>
+
+</body>
+</html>
